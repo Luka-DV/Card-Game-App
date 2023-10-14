@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(lightblue, lightyellow);
+  background-repeat: no-repeat;
+  min-height: 100dvh;
+  font-family: 'Lexend', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section1, .section2 {
+  width: 50%;
+  min-width: 50%;
+  display: block;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  width: 100%;
+}
+#p1score, #p2score {
+  width: 50%;
+}
+
+button {
+  background: beige;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.1)
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

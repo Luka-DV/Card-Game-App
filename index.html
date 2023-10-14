@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Simple card game">
+    	<meta name="keywords" content="card game">
+
+		<title>Card game</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Card Game!</h1>
+			<button id="play" type="button">Deal Two Cards</button>
+			<button id="reset" type="button">Reset Game</button>
+		</header>
+
+		<main>
+
+			<section class="section1">
+				<h2>Player 1</h2>
+				<img id="player1" src="img/backOfCard.png" alt="playing card">
+			</section>
+
+			<section class="section2">
+				<h2>Player 2</h2>
+				<img id="player2" src="img/backOfCard.png" alt="playing card">
+			</section>
+
+			<section>
+				<h3 id="result">Who will win?</h3>
+				<h2 id="p1score">Player 1 score: 0</h2>
+				<h2 id="p2score">Player 2 score: 0</h2>
+			</section>
+
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
