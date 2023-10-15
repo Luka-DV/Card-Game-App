@@ -87,11 +87,11 @@ class CardGame {
           const player2Val = this.convertToNum(data.cards[1].value);
 
           if(player1Val > player2Val) {
-            this.#resultText.innerText = "Player 1 WON";
+            this.#resultText.innerText = "Player 1 won the round";
             this.addToPlayer1Pile(`${data.cards[0].code},${data.cards[1].code}`);
 
           } else if(player2Val > player1Val) {
-            this.#resultText.innerText = "Player 2 WON";
+            this.#resultText.innerText = "Player 2 won the round";
             this.addToPlayer2Pile(`${data.cards[0].code},${data.cards[1].code}`);
 
           } else {
